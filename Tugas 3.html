@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Bootstrap</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!--link bootstrap-->
+  <link rel="stylesheet" href="style.css/Tugas3.css">
+  <!--link css eksternal-->
+  <!--link google font-->
+  <script src="https://kit.fontawesome.com/5b3710b119.js" crossorigin="anonymous"></script>
+  <!--link Awesome-->
+</head>
+
+<body>
+  <!-- Navbar -->
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="media/logo_eduwork.png" alt="Logo eduwork"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+
+            <div class="dropdown">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false"> Kelas </a>
+
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Private Mentoring</a></li>
+                  <li><a class="dropdown-item" href="#">Webinar</a></li>
+                </ul>
+              </li>
+            </div>
+
+
+
+            <a class="nav-link" href="#"> <i class="fa-solid fa-right-to-bracket"></i> Sign in</a>
+            <button type="button" class="btn btn-primary rounded-pill">REGISTER <i class="fa-solid fa-plus"
+                style="color: white;"></i> </button>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- Akhir avbar -->
+
+  <!-- Jumbotron -->
+  <section id="jumbotronku">
+    <video id="vidio" src="media/repeat-medium.mp4" poster="media/logo_eduwork.png" loop autoplay muted></video>
+
+    <div id="bg-info">
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <h1 class="d-block w-100 fw-bold">Program pelatihan dan penyaluran ISA, <br>
+              Bayar Nanti Setelah berpenghasilan <br>
+              dan bisa di cicil sampai 12x.</h1>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <h1 class="d-block w-100 fw-bold">Raih Profesi idamanmu, kami bantu <br> sampai di terima kerja <br>
+              <span class="h2">Tanpa biaya pendaftaran!</span>
+            </h1>
+          </div>
+        </div>
+
+      </div>
+
+      <button type="button" class="btn btn-secondary rounded-pill">DAFTAR SEKARANG</button>
+
+    </div>
+  </section>
+  <!-- Akhir Jumbotron -->
+
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
